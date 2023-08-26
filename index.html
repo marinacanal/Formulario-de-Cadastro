@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="input-group">
+            <h1>Cadastre-se</h1>
+            <label> Nome Completo: </label>
+            <input type="text" name="nome" placeholder="Informe seu nome completo"/> 
+        
+            <label> Telefone: </label>
+            <input type="text" name="numero" placeholder="Informe seu telefone"/> 
+
+            <label> Data de Nascimento: </label>
+            <input type="date" name="data" placeholder="Informe sua data de nascimento"/> 
+            
+            <label>Gênero:</label>
+            <div class="gender-input">
+            <input type="radio" name="gender">
+            <label>Feminino</label>
+            <input type="radio" name="gender">
+            <label>Masculino</label>
+            <input type="radio" name="gender">
+            <label>Prefiro não dizer</label>
+            </div>
+
+            <label> E-mail: </label>
+            <input type="email" name="email" placeholder="Informe o seu e-mail"/> 
+
+            <label> Senha: </label>
+            <input type="password" name="senha" placeholder="Informe sua senha"/> 
+
+            <input type="submit" name="Enviar"/>
+        </div>
+    </form>
+    
+</body>
+</html>
