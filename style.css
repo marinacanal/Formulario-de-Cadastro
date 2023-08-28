@@ -4,6 +4,8 @@
 }
 
 body {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,17 +13,17 @@ body {
 }
 
 form {
-    width: 450px ;
-    height: 655px;
+    width: 450px;
+    height: 670px;
     display: flex;
     align-items: left;
+    justify-content: center;
     background-color: #fff;
     border-radius: 10px;
     font-size: 13.5px;
     font-weight: 600;
     color: #000000c0;
     padding: 0 30px;
-    margin-top: 10px;
 }
 
 h1 {
@@ -52,7 +54,7 @@ input[type="submit"]{
     width: 100%;;
     height: 42px;
     margin-top: 22px;
-    margin-bottom: 38px;
+    margin-bottom: 40px;
     border: none;
     background-color: rgba(89, 255, 197, 0.637);
     padding: 10px;
@@ -95,7 +97,6 @@ input:focus-visible {
     width: 20px;
     box-shadow: none;
 }
-
 
 @media screen and (max-width: 1064px) {
     form {
